@@ -38,7 +38,6 @@ public class CaesarCipher {
         return cipher;
     }
 
-    //need change
     public static char[] modifiedCaeserCipher (char characters[], int offset, boolean decipher) {
         String uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String lowercase = "abcdefghijklmnopqrstuvwxyz";
